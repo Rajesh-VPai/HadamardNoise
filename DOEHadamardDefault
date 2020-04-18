@@ -1,0 +1,10 @@
+Path= data\ 
+Length(Columns/Factors)(Overall Permutations =Levels^Length)=10
+STATSMOREDATAFACTOR(Not Used) = 1 
+ROWSDOE (1 + Sigma((i=1 to NV) (Li-1)) : Tip: Use ROWSDOERecommended ) =100
+UseLevelsFromFile [Values(True,False)](Remember to Update DOEColumninputLevelSignalNormal in data\LevelValues Folder )= False
+UseLevelsFromArray [Values(True,False)](Remember to Update Array InitLevels in Code)= False
+UseFullFactorial [Values(True,False)]= false
+ClassicTaguchiAlg [Values(True,False)](Not Valid for Noise)= false
+LEVELS = 2
+HasNoise [Values(True,False)]= True
