@@ -45,7 +45,7 @@ All column strengths should be 100% in case of a full factorial OA.
 Hadamard OA is Taguchi OA with level=2.
 
 
-In total for the User to do his/her DOE experiments the user has to use DOEMATRIXGEN [Link](https://github.com/Rajesh-VPai/DOEMatrixGen) as well as the noise OA (TaguchiHadamardNoise).
+In total, for the User to do his/her DOE experiments, the user has to use DOEMATRIXGEN [Link](https://github.com/Rajesh-VPai/DOEMatrixGen) as well as the noise OA (TaguchiHadamardNoise).
 
 ### Jekyll Themes
 
