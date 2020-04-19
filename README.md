@@ -10,7 +10,9 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 [Link](https://github.com/Rajesh-VPai/TaguchiHadamardNoise)
 #### About TaguchiHadamardNoise
 TaguchiHadamardNoise is a core Java orthogonal Array Matrix Generator.
-It can generate Taguchi as well as Hadamard Noise Orthogonal Array Matrix. It contains an example of how to self test itself using Orthogonal Array for Testing. It contains copious documentation on the code. Code does not throw any Java exception.
+It can generate Taguchi as well as Hadamard Noise Orthogonal Array Matrix. It contains an example of how to self test itself using Orthogonal Array for Testing. It contains copious documentation on the code. It contains an application of DOE Programming (DP) similar to Genetic Programming (GP). It is used to generate random numbers with a small set of config files.
+
+Code does not throw any Java exception.
 - TaguchiHadamardNoise allows full degrees of freedom to the User. The User can generate an OA for any number of runs(rows), any factors (columns) and any LEVELS. It supports Hadamard MultiLevel Matrices (Level > 2)
 - At the core, the TaguchiHadamardNoise uses a simple pseudo DPRNG counter to generate the Full factorial OA. It also has a  algorithm function that generates pseudo algorithmic (but not full factorial nor pseudo random) cell value. The cell value is reffered to as partial OA.
 - The TaguchiHadamardNoise flags off if the runs are unique or duplicate.
@@ -41,6 +43,9 @@ The User can use TaguchiHadamardNoise to generate his/her full factorial / parti
 In certain conditions. the 100% Full factorial OA might not be obtained. In such cases, the user has to manually make the appropriate changes. For help and guidance,the user can refer to the level (strength) analysis at the bottom of the screen/output. The user has to infer which cell has to change.
 All column strengths should be 100% in case of a full factorial OA.
 Hadamard OA is Taguchi OA with level=2.
+
+
+In total for the User to do his/her DOE experiments the user has to use DOEMATRIXGEN [Link](https://github.com/Rajesh-VPai/DOEMatrixGen) as well as the noise OA (TaguchiHadamardNoise).
 
 ### Jekyll Themes
 
