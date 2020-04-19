@@ -27,13 +27,14 @@ Available in TaguchiHadamardNoise.zip
 - src
 
 data Directory Structure
-- DOEMatrix : For CSV File Output of DOEMatrixGen OA
-- DOESelfTestConfig: For DOEMatrixGen Regression Testing  Config Files: Run the function(method):mainRegresssionDOE
+- DOEMatrix : For CSV File  OA (not used)
+- DOESelfTestConfig: For TaguchiHadamardNoise Regression Testing  Config Files: Run the function(method):mainRegresssionDOE
 - DOEDPFine : For DOE Programming (akin to Genetic Programming by Koza)
-Files in data Directory (Base):DOEinputGeneralDefault
+Files in data Directory (Base):DOEHadamardDefault
 
 Files in DOESelfTestConfig Directory: All Files DOEHadamard000 to DOEHadamard029 + DOEHadamardDefault
 
+Files in DOEDPFine : All files DOEDPNoise000 to DOEDPNoise010 + DOEDPNoiseDefault
 ###### User Instructions
 The User can use TaguchiHadamardNoise to generate his/her full factorial / partial Orthogonal Array ( Taguchi/Hadamard).Once the Noise Matrix is generated, the user can proceed with the experiments. This software does not do the analysis. The user can use Microsoft Excel or any other software. To compute the DOE Signal /Noise Ratios.
 
