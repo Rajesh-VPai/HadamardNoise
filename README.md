@@ -7,7 +7,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-[Link](https://github.com/Rajesh-VPai/TaguchiHadamardNoise)
+[Link](https://github.com/Rajesh-VPai/HadamardNoise)
 #### About TaguchiHadamardNoise
 TaguchiHadamardNoise is a core Java orthogonal Array Matrix Generator.
 It can generate Taguchi as well as Hadamard Noise Orthogonal Array Matrix. It contains an example of how to self test itself using Orthogonal Array for Testing. It contains copious documentation on the code. It contains an application of DOE Programming (DP) similar to Genetic Programming (GP). It is used to generate random numbers with a small set of config files.
