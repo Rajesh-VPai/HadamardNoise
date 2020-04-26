@@ -16,7 +16,7 @@ Code does not throw any Java exception.
 - HadamardNoise allows full degrees of freedom to the User. The User can generate an OA for any number of runs(rows), any factors (columns) and any LEVELS. It supports Hadamard MultiLevel Matrices (Level > 2)
 - At the core, the HadamardNoise uses a simple pseudo DPRNG (Differential Pseudo Random Number Generator) counter to generate the Full factorial OA. It also has a  algorithm function that generates pseudo algorithmic (but not full factorial nor pseudo random) cell value. The cell value is reffered to as partial OA. The DPRNG is similar (but not the same as ) to the LCG based PRNG. Documentation in Java Random Number Generator.doc
 - The HadamardNoise flags off if the runs are unique or duplicate.
-- It also calculates the optimal Length of Message for a given run (row or k) for the given levels.(Lengthrecommended).
+- It also calculates the optimal Length of a Message for a given run (row or k) and for the given levels.(Lengthrecommended).
 
 - Development and Test Environment: Windows XP and Java 7 & Netbeans 8.2
 
@@ -38,9 +38,9 @@ Files in DOESelfTestConfig Directory: All Files DOEHadamard000 to DOEHadamard029
 
 Files in DOEDPFine : All files DOEDPNoise000 to DOEDPNoise010 + DOEDPNoiseDefault
 ###### User Instructions
-The User can HadamardNoise to generate his/her full factorial / partial Orthogonal Array ( Taguchi/Hadamard).Once the Noise Matrix is generated, the user can proceed with the experiments. This software does not do the analysis. The user can use Microsoft Excel or any other software. To compute the DOE Signal /Noise Ratios.
+The User can HadamardNoise to generate his/her full factorial / partial Orthogonal Array ( Taguchi/Hadamard).Once the Noise Matrix is generated, the user can proceed with the experiments. This software does not do the analysis. The user can use Microsoft Excel or any other software to compute the DOE Signal /Noise Ratios.
 
-In certain conditions. the 100% Full factorial OA might not be obtained. In such cases, the user has to manually make the appropriate changes. For help and guidance,the user can refer to the level (strength) analysis at the bottom of the screen/output. The user has to infer which cell has to change.
+In certain conditions. the 100% Full factorial OA might not be obtained. In such cases, the user has to manually make the appropriate changes. For help and guidance,the user can refer to the level (strength) analysis at the bottom of the screen/output. The user has to infer which cell has to change and correct it.
 All column strengths should be 100% in case of a full factorial OA.
 Hadamard OA is Taguchi OA with level=2.
 
