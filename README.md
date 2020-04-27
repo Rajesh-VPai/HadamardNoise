@@ -39,7 +39,7 @@ Files in DOEDPFine : All files DOEDPNoise000 to DOEDPNoise010 + DOEDPNoiseDefaul
 ###### User Instructions
 The User can HadamardNoise to generate his/her full factorial / partial Orthogonal Array ( Taguchi/Hadamard).Once the Noise Matrix is generated, the user can proceed with the experiments. This software does not do the analysis. The user can use Microsoft Excel or any other software to compute the DOE Signal /Noise Ratios.
 
-In certain conditions. the 100% Full factorial OA might not be obtained. In such cases, the user has to manually make the appropriate changes. For help and guidance,the user can refer to the level (strength) analysis at the bottom of the screen/output. The user has to infer which cell has to change and correct it.
+In certain conditions, the 100% Full factorial OA might not be obtained. In such cases, the user has to manually make the appropriate changes. For help and guidance,the user can refer to the level (strength) analysis at the bottom of the screen/output. The user has to infer which cell has to change and correct it.
 All column strengths should be 100% in case of a full factorial OA.
 Hadamard OA is Taguchi OA with level=2.
 
