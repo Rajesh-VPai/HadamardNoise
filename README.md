@@ -9,12 +9,11 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 [Link](https://github.com/Rajesh-VPai/HadamardNoise)
 #### About HadamardNoise
-HadamardNoise is a core Java orthogonal Array Matrix Generator.It 
-does not use any library. It can generate Taguchi as well as Hadamard Noise Orthogonal Array Matrix. It contains an example of how to self test itself using Orthogonal Array for Testing. It contains an application of DOE Programming (DP) similar to Genetic Programming (GP). DP is used to generate random numbers with a small set of config files. HadamardNoise is a software to help study the Noise Characteristics of a system(Hardware, Software). At a high level,it implements Taguchi's Signal+Noise Equation. Signal OA using DOEMATRIXGEN and/or Noise OA in HadamardNoise.
+HadamardNoise is a core Java orthogonal Array Matrix Generator.It does not use any library. It can generate Taguchi as well as Hadamard noise Orthogonal Array Matrix. It contains an example of how to self test itself using Orthogonal Array for Testing. It contains an application of DOE Programming (DP) similar to Genetic Programming (GP). DP is used to generate random numbers with a small set of config files. HadamardNoise is a software to help study the Noise Characteristics of a system(Hardware, Software). At a high level,it implements Taguchi's Signal+Noise Equation. Signal OA using DOEMATRIXGEN and/or Noise OA in HadamardNoise.
 
 Code does not throw any Java exception.
-- HadamardNoise allows full degrees of freedom to the User. The User can generate an OA for any number of runs(rows), any factors (columns) and any LEVELS. It supports Hadamard MultiLevel Matrices (Level > 2)
-- At the core, the HadamardNoise uses a simple pseudo DPRNG (Differential Pseudo Random Number Generator) counter to generate the Full factorial OA. It also has a  algorithm function that generates pseudo algorithmic (but not full factorial nor pseudo random) cell value. The cell value is reffered to as partial OA. The DPRNG is similar (but not the same as ) to the LCG based PRNG. Documentation in Java Random Number Generator.doc
+- HadamardNoise gives full degrees of freedom to the User. The User can generate an OA for any number of runs(rows), any factors (columns) and any LEVELS. It supports Hadamard MultiLevel Matrices (Level > 2) i.e cell values are ≥ 1
+- At the core, the HadamardNoise uses a simple pseudo DPRNG (Differential Pseudo Random Number Generator) counter to generate the pseudo random OA. It has an  algorithmic function that generates pseudo algorithmic cell value. The cell value is reffered to as partial OA. The DPRNG is similar (but not the same as ) to the LCG based PRNG. Documentation in Java Random Number Generator.doc
 - The HadamardNoise flags off if the runs are unique or duplicate.
 - It also calculates the optimal Length of a Message for a given run (row or k) and for the given levels.(Lengthrecommended).
 
