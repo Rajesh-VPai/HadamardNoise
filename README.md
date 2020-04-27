@@ -17,6 +17,7 @@ Code does not throw any Java exception.
 - The HadamardNoise flags off if the runs are unique or duplicate.
 - It also calculates the optimal Length of a Message for a given run (row or k) and for the given levels.(Lengthrecommended).
 
+It also computes the Hadamard product and the matrix determinant.
 - Development and Test Environment: Windows XP and Java 7 & Netbeans 8.2
 
 ##### Project Directory Structure
